@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Body{
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("C:\Users\hiten\OneDrive\Desktop\chat app\chat-app\public\dark_theme_img.png"); */
+background-image: url("C:\Users\hiten\OneDrive\Desktop\react-chat-app\react-chat-app\public\chat-app img with icon.png");
+  background-size: cover;
+}
+.login-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 119, 255, 0.292);
+    /* backdrop-filter: invert(10%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page{
+    width: 65%;
+    height: 80%;
+    border-radius: 20px;
+    color: #FFFFFF;
+    /* background-color: #1718196e; */
+    background-color: #5d9bff6e;
+    backdrop-filter: blur(5px);
+    /* box-shadow: 2px 2px 2px 1px #212527, -2px -2px 2px 1px #212527; */
+    box-shadow: 2px 2px 2px 1px #98cbee, -2px -2px 2px 1px #98cbee;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.login-details{
+    margin: 10px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-details p{
+    margin: 10px;
+}
+
+.sign-in-text{
+  transition: transform 0.5s ease;
+}
+.sign-in-text:hover{
+  transform: scale(1.1);
+}
+.login-details h1{
+  transition: transform 0.9s ease;
+}
+
+.login-details h1:hover{
+  font-size: 32px;
+  transform: scale(1.1);
+}
+
+.login-details h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    transition: transform 0.9s ease;
+}
+
+.login-details h2:hover{
+  transform: scale(1.2);
+}
+
+.app-showcase{
+    margin: 10px;
+    width: 55%;
+    border-left: 2px solid #FFFFFF;
+}
+
+.inp-Phno{
+    margin: 10px;
+    padding: 5px;
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    outline: none;
+    text-indent: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.5s ease, border 0.5s ease,box-shadow 0.5s ease;
+}
+
+.inp-Phno:hover{
+    background-color: #ffffff19;
+    /* border: 2px solid rgba(164, 164, 164, 0.797); */
+    border: 2px solid #a0ceec;
+    box-shadow: 2px 2px 1px #d4eeff4d,-2px -2px -1px #d4eeff4d;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+.sign-in-btn{
+    margin: 0 10px 10px 10px ;
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.7s ease, border 0.7s ease,box-shadow 0.7s ease;
+}
+.sign-in-btn:hover{
+    background-color: #ffffff19;
+    border: 2px solid #a0ceec;
+    box-shadow: 2px 2px 1px #d4eeff4d,-2px -2px -1px #d4eeff4d;
+}
+.acc-sign-btn{
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    width: 40%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, border 0.5s ease,box-shadow 0.5s ease;
+}
+.acc-sign-btn:hover{
+    background-color: #ffffff19;
+    border: 2px solid #a0ceec;
+    box-shadow: 2px 2px 1px #d4eeff4d,-2px -2px -1px #d4eeff4d;
+}
+.divider{
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+    border-top: 1px solid #FFFFFF;
+    width: 90%;
+}
+.sign-up{
+    margin: 0 10px 10px 10px ;
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+.sign-up:hover{
+    background-color: #ffffff19;
+    border: 2px solid #a0ceec;
+    box-shadow: 2px 2px 1px #d4eeff4d,-2px -2px -1px #d4eeff4d;
+}
+.app-showcase {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid #FFFFFF;
+}
+
+.slider-container {
+  width: 80%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+input[type="radio"] {
+  display: none;
+}
+
+
+.navigation-manual {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.manual-btn {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.manual-btn:hover {
+  background: #fff;
+}
+
+
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
