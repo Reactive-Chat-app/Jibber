@@ -56,7 +56,7 @@ function MainPage() {
                         <button className="main-navbar"><BiArrowBack /></button>
 
                         <h1 className='title'>JIBBER</h1>
-                        <button className="main-navbar" onClick={() => navigate("/settings")}><BiMenuAltRight /></button>
+                        <button className="main-navbar" onClick={() => window.location.href = "https://settingspage.netlify.app/"}><BiMenuAltRight /></button>
                     </div>
                     <div className="content">
                         <div className="chat">
